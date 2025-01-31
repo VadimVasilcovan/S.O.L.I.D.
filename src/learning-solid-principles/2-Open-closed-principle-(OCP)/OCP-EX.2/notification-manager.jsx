@@ -14,5 +14,4 @@ const NotificationManager = () => {
   );
 };
 
-
-export default NotificationManager
+export default NotificationManager;
