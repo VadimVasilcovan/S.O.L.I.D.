@@ -12,7 +12,7 @@ const Input = ({ value, onChange, validate, errorMessage }) => {
       <input
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        noBlur={handleBlur}
+        onBlur={handleBlur}
         style={{
           padding: "8px",
           border: "1px solid #ccc",
