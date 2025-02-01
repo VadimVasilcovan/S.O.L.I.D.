@@ -1,6 +1,6 @@
 export default function Input({ value, InputState }) {
     const handleChange = (e) => {
-      InputState(e.target.value); // Correct function call
+      InputState(e.target.value); 
     };
   
     return (
